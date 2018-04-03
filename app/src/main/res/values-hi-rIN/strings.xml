@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">सिर्फ जावा</string>
+    <string name="editHint">अपना नाम यहाँ दर्ज करे</string>
+    <string name="topping">टॉपिंग</string>
+    <string name="whipped_cream">व्हीप्ड क्रीम (रु- 1 / प्रति कप)</string>
+    <string name="chocolate">चॉकलेट (रु- 2 / प्रति कप)</string>
+    <string name="title">कॉफी ऑर्डरिंग ऐप</string>
+    <string name="quant">मात्रा</string>
+    <string name="orderSummary">पुष्टि करने के लिए, ऑर्डर दबाएं</string>
+    <string name="order">ऑर्डर</string>
+    <string name="thankYou">धन्यवाद!</string>
+    <string name="unknownName">आपको पहले एक नाम दर्ज करना होगा</string>
+    <string name="quantity">मात्रा -</string>
+    <string name="whippedCream">व्हीप्ड क्रीम जोड़ें?</string>
+    <string name="addChocolate">चॉकलेट जोड़ें?</string>
+    <string name="priceOrder">कुल: रू-</string>
+    <string name="mailTo">mailto:sidp919@gmail.com</string>
+    <string name="orderBy"><xliff:g id="name">%s</xliff:g> का कॉफी ऑर्डर</string>
+    <string name="toast1">आप एक ही बार में 35 से अधिक कॉफी ऑर्डर नहीं कर सकते</string>
+    <string name="toast2">आप 1 से कम कॉफी ऑर्डर नहीं कर सकते</string>
+    <string name="name">नाम - <xliff:g id="custName">%s</xliff:g></string>
+    <string name="lang">Note: Change device language to see application in English</string>
+    <string name="isTrue">हॉ</string>
+    <string name="isFalse">नही</string>
+</resources>

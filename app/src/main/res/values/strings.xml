@@ -1,0 +1,25 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Just Java</string>
+    <string name="title">Coffee Ordering App</string>
+    <string name="editHint">Enter Your name here</string>
+    <string name="topping">toppings</string>
+    <string name="whipped_cream">Whipped cream(Rs.1/Cup)</string>
+    <string name="chocolate">Chocolate(Rs.2/Cup)</string>
+    <string name="quant">Quantity</string>
+    <string name="orderSummary">To confirm press ORDER</string>
+    <string name="order">Order</string>
+    <string name="thankYou">Thank you!</string>
+    <string name="unknownName">You must Enter a name first</string>
+    <string name="name">Name: <xliff:g id="custName">%s</xliff:g></string>
+    <string name="quantity">Quantity:</string>
+    <string name="isTrue">Yes</string>
+    <string name="isFalse">No</string>
+    <string name="whippedCream">Add whipped cream?</string>
+    <string name="addChocolate">Add Chocolate?</string>
+    <string name="priceOrder">Total: Rs.</string>
+    <string name="mailTo">mailto:sidp919@gmail.com</string>
+    <string name="orderBy">Coffee Order By <xliff:g id="custName">%s</xliff:g></string>
+    <string name="toast1">You cannot have more than 35 coffees at once</string>
+    <string name="toast2">You cannot have less than 1 coffee</string>
+    <string name="lang">नोट: हिंदी में एप्लिकेशन को देखने के लिए अपने फ़ोन की भाषा बदलें</string>
+</resources>
