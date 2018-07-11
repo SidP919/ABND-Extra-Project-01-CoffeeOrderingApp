@@ -15,7 +15,7 @@
     <string name="whippedCream">व्हीप्ड क्रीम जोड़ें?</string>
     <string name="addChocolate">चॉकलेट जोड़ें?</string>
     <string name="priceOrder">कुल: रू-</string>
-    <string name="mailTo">mailto:sidp919@gmail.com</string>
+    <string name="mailTo">mailto:sidptest919@gmail.com</string>
     <string name="orderBy"><xliff:g id="name">%s</xliff:g> का कॉफी ऑर्डर</string>
     <string name="toast1">आप एक ही बार में 35 से अधिक कॉफी ऑर्डर नहीं कर सकते</string>
     <string name="toast2">आप 1 से कम कॉफी ऑर्डर नहीं कर सकते</string>

@@ -17,7 +17,7 @@
     <string name="whippedCream">Add whipped cream?</string>
     <string name="addChocolate">Add Chocolate?</string>
     <string name="priceOrder">Total: Rs.</string>
-    <string name="mailTo">mailto:sidp919@gmail.com</string>
+    <string name="mailTo">mailto:sidptest919@gmail.com</string>
     <string name="orderBy">Coffee Order By <xliff:g id="custName">%s</xliff:g></string>
     <string name="toast1">You cannot have more than 35 coffees at once</string>
     <string name="toast2">You cannot have less than 1 coffee</string>

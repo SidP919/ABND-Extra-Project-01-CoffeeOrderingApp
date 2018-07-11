@@ -1,7 +1,5 @@
 package com.example.android.justjava;
 
-
-import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
@@ -44,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
-    protected void hideSoftKeyboard(View view)
+    public void hideSoftKeyboard(View view)
     {
         InputMethodManager in = (InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE);
         in.hideSoftInputFromWindow(view.getWindowToken(), InputMethodManager.HIDE_NOT_ALWAYS);

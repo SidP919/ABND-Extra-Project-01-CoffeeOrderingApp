@@ -4,7 +4,7 @@
     android:id="@+id/layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#e7dbdb"
+    android:background="@color/mainBackground"
     android:focusable="true"
     android:focusableInTouchMode="true"
     android:orientation="vertical"
@@ -19,14 +19,14 @@
         android:layout_gravity="center_horizontal"
         android:layout_marginBottom="16dp"
         android:layout_marginTop="16dp"
-        android:background="#ffffff"
+        android:background="@android:color/white"
         android:fontFamily="sans-serif-condensed"
         android:paddingLeft="8dp"
         android:paddingRight="8dp"
         android:text="@string/title"
         android:textAllCaps="true"
         android:textAppearance="?android:textAppearanceLarge"
-        android:textColor="#a47e7e"
+        android:textColor="@color/titleColor"
         android:textStyle="bold" />
 
     <View
@@ -43,8 +43,8 @@
         android:hint="@string/editHint"
         android:inputType="textCapWords"
         android:lines="1"
-        android:textColor="#6c4c4c"
-        android:textColorHint="#706c4c4c"
+        android:textColor="@color/titleColor"
+        android:textColorHint="@color/editTextHint"
         android:theme="@style/MyStyle"
         android:imeOptions="actionDone"/>
 
@@ -57,14 +57,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_weight="0.5"
-        android:background="#ffffff"
+        android:background="@android:color/white"
         android:gravity="center"
         android:paddingLeft="16dp"
         android:paddingRight="16dp"
         android:text="@string/topping"
         android:textAllCaps="true"
         android:textAppearance="?android:textAppearanceMedium"
-        android:textColor="#6c4c4c" />
+        android:textColor="@color/titleColor" />
 
     <CheckBox
         android:id="@+id/whipped_cream_checkbox"
@@ -76,7 +76,7 @@
         android:paddingLeft="24dp"
         android:paddingStart="24dp"
         android:text="@string/whipped_cream"
-        android:textColor="#6c4c4c"
+        android:textColor="@color/titleColor"
         android:textSize="16sp"
         android:theme="@style/MyStyle" />
 
@@ -90,7 +90,7 @@
         android:paddingLeft="24dp"
         android:paddingStart="24dp"
         android:text="@string/chocolate"
-        android:textColor="#6c4c4c"
+        android:textColor="@color/titleColor"
         android:textSize="16sp"
         android:theme="@style/MyStyle" />
 
@@ -111,18 +111,18 @@
             android:layout_height="match_parent"
             android:layout_margin="4dp"
             android:layout_weight="1"
-            android:backgroundTint="#d48c8c"
+            android:backgroundTint="@color/colorPrimaryDark"
             android:onClick="decrement"
             android:text="-"
             android:textAlignment="center"
-            android:textColor="#ffffff"
+            android:textColor="@android:color/white"
             android:textSize="32sp" />
 
         <LinearLayout
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="2.4"
-            android:background="#ffffff"
+            android:background="@android:color/white"
             android:orientation="vertical"
             android:padding="8dp">
 
@@ -133,7 +133,7 @@
                 android:textAlignment="center"
                 android:textAllCaps="true"
                 android:textAppearance="?android:textAppearanceMedium"
-                android:textColor="#a47e7e"
+                android:textColor="@color/colorPrimaryDark"
                 android:textStyle="bold" />
 
             <TextView
@@ -142,7 +142,7 @@
                 android:layout_height="wrap_content"
                 android:text="1"
                 android:textAlignment="center"
-                android:textColor="#5e4949"
+                android:textColor="@color/titleColor"
                 android:textSize="48sp" />
         </LinearLayout>
 
@@ -151,11 +151,11 @@
             android:layout_height="match_parent"
             android:layout_margin="4dp"
             android:layout_weight="1"
-            android:backgroundTint="#d48c8c"
+            android:backgroundTint="@color/colorPrimaryDark"
             android:onClick="increment"
             android:text="+"
             android:textAlignment="center"
-            android:textColor="#ffffff"
+            android:textColor="@android:color/white"
             android:textSize="32sp" />
     </LinearLayout>
 
@@ -171,10 +171,10 @@
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="8dp"
         android:layout_weight="1"
-        android:background="#ffffff"
+        android:background="@android:color/white"
         android:padding="8dp"
         android:text="@string/orderSummary"
-        android:textColor="#325428"
+        android:textColor="@color/titleColor"
         android:textSize="16sp" />
 
     <View
@@ -188,12 +188,12 @@
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="8dp"
         android:layout_weight="1"
-        android:background="#d48c8c"
+        android:background="@color/colorPrimaryDark"
         android:onClick="submitOrders"
         android:padding="8dp"
         android:text="@string/order"
         android:textAlignment="center"
-        android:textColor="#ffffff"
+        android:textColor="@android:color/white"
         android:textSize="24sp" />
 
     <TextView
@@ -201,11 +201,11 @@
         android:layout_height="wrap_content"
         android:layout_gravity="bottom"
         android:layout_marginTop="32dp"
-        android:background="#ffffff"
+        android:background="@android:color/white"
         android:gravity="center"
         android:padding="8dp"
         android:text="@string/lang"
         android:textAppearance="?android:textAppearanceSmall"
-        android:textColor="#325428" />
+        android:textColor="@color/titleColor" />
 
 </LinearLayout>
